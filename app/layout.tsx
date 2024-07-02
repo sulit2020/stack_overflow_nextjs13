@@ -47,12 +47,6 @@ export default function RootLayout({
             },
           }}
         >
-          <SignedOut>
-            <SignInButton />
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
           <ThemeProvider>{children}</ThemeProvider>
         </ClerkProvider>
         <h1 className="h1-bold"> This is a piece of text</h1>
